@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Nadeesha Lakmal/NCCircularView'
+  s.homepage         = 'https://github.com/nadeeshac32/NCCircularView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Nadeesha Lakmal' => 'nadeeshac32@gmail.com' }
-  s.source           = { :git => 'https://github.com/Nadeesha Lakmal/NCCircularView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/nadeeshac32/NCCircularView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
@@ -37,6 +37,7 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.swift_version = '4.0'
 end

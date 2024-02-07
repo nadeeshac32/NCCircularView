@@ -1,0 +1,16 @@
+PODS:
+  - NCCircularView (0.1.0)
+
+DEPENDENCIES:
+  - NCCircularView (from `../`)
+
+EXTERNAL SOURCES:
+  NCCircularView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NCCircularView: d465fd58caeab87fff9629d14cbeff9cc593eae8
+
+PODFILE CHECKSUM: cd8cb3384f5885ae1ab0e489b14b6b89c3fbd5bc
+
+COCOAPODS: 1.12.1

@@ -1,0 +1,6 @@
+framework module NCCircularView {
+  umbrella header "NCCircularView-umbrella.h"
+
+  export *
+  module * { export * }
+}
