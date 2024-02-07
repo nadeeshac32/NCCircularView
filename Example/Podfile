@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'NCCircularView_Example' do
+  pod 'NCCircularView', :path => '../'
+
+  target 'NCCircularView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
