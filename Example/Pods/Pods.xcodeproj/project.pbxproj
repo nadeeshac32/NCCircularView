@@ -12,7 +12,6 @@
 		7561F601748CF23AF878CA7A998C4BE4 /* Pods-NCCircularView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36603B814A3039A83643B118276A0867 /* Pods-NCCircularView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		937CFCAD6748A9FD2BC5536112E04EA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		B2585A2A051C32AE5D4A784C4DF4AEEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		C97725362B734A7600805086 /* NCCircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97725352B734A7600805086 /* NCCircularView.swift */; };
 		D8A34E87057E408C24204A535A83D8A0 /* NCCircularView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B33F4876A0115E0299DC9624348533EF /* NCCircularView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4E1C81CBC728C0427460B69DCA05880 /* NCCircularView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 473D327C7CB413C1CF3C581EAA10AA42 /* NCCircularView-dummy.m */; };
 		F5936FCC4010EE4D53CF6179B9AF459C /* Pods-NCCircularView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9622AF73564F1DC66B95335219CCD4 /* Pods-NCCircularView_Tests-dummy.m */; };
@@ -65,7 +64,6 @@
 		B36A878D8312165908154C699130E4FA /* Pods-NCCircularView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NCCircularView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BD9622AF73564F1DC66B95335219CCD4 /* Pods-NCCircularView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NCCircularView_Tests-dummy.m"; sourceTree = "<group>"; };
 		BE40099584B24DC35720089AD7AB836F /* Pods-NCCircularView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NCCircularView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C97725352B734A7600805086 /* NCCircularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCCircularView.swift; sourceTree = "<group>"; };
 		D1986F8574A16FCBABEB4BBAC4307FE0 /* NCCircularView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NCCircularView.debug.xcconfig; sourceTree = "<group>"; };
 		DAA24746A5C4F33B00A067456494EECD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F473ED2B971173EAEA5D9B9A8EF75DF0 /* Pods-NCCircularView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NCCircularView_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -126,7 +124,6 @@
 		5612C06769B5D393EC0EBE887E79E9D1 /* NCCircularView */ = {
 			isa = PBXGroup;
 			children = (
-				C97725352B734A7600805086 /* NCCircularView.swift */,
 				A7B071384A101C842D33894EEA882526 /* Pod */,
 				488B33D1966E0C2030D4FA237BF4B53A /* Support Files */,
 			);
@@ -372,7 +369,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C97725362B734A7600805086 /* NCCircularView.swift in Sources */,
 				E4E1C81CBC728C0427460B69DCA05880 /* NCCircularView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
