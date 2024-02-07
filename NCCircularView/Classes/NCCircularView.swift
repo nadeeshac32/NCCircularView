@@ -14,6 +14,7 @@ public class NCCircularView: UIView {
     
     public required init?(coder: NSCoder) {
         super.init(coder: coder)
+        setupView()
     }
     
     private func setupView() {
