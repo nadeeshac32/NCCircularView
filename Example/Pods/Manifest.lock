@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NCCircularView: d465fd58caeab87fff9629d14cbeff9cc593eae8
+  NCCircularView: fd63517c32dc77eb0533cb28445710460b14179a
 
 PODFILE CHECKSUM: cd8cb3384f5885ae1ab0e489b14b6b89c3fbd5bc
 
