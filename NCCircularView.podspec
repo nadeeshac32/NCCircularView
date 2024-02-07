@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'NCCircularView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of NCCircularView.'
+  s.summary          = 'NCCircularView view is a circle view that can assign images.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Add long description of the pod here.
+This description should be longer than summary about NCCircularView. Views can be updated with images.
                        DESC
 
   s.homepage         = 'https://github.com/nadeeshac32/NCCircularView'
